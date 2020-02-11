@@ -14,12 +14,12 @@ The following samples are available in this repo.
 
 | Name | Description  | Trigger | Input | Output |
 |------|--------------|---------|-------|--------|
-| [HttpTrigger](https://github.com/craigshoemaker/azure-functions-binding-python/tree/master/HttpTrigger) | Triggered by an HTTP request. | Http | N/A | Http |
-| [HttpTriggerRoutes](https://github.com/craigshoemaker/azure-functions-binding-python/tree/master/HttpTriggerRoutes) | Triggered by an HTTP request, configured with a custom route. | Http | N/A | Http |
-| [HttpTriggerSendGrid](https://github.com/craigshoemaker/azure-functions-binding-python/tree/master/HttpTriggerSendGridDemo)  | Send an email message via [SendGrid](https://sendgrid.com/). | Http | N/A | SendGrid message |
-|[EventGridTrigger](https://github.com/craigshoemaker/azure-functions-binding-python/tree/master/EventGridTriggerDemo)|Triggered by an Event Grid event|Event Grid event|Event Grid message|N/A|
-|[QueueTrigger](https://github.com/craigshoemaker/azure-functions-binding-python/tree/master/QueueTrigger)|Triggered by a Queue message|Queue message|Queue message|N/A|
-|[TableStorageInput](https://github.com/craigshoemaker/azure-functions-binding-python/tree/master/TableStorageInput)|Accepts table row ID as a route parameter and makes table row available to function|Http|Storage Table Row|Http|
-|[TableStorageOutput](https://github.com/craigshoemaker/azure-functions-binding-python/tree/master/TableStorageOutput)|Create table storage row|Http|N/A|Storage Table Row|
-|[ServiceBusOutput](https://github.com/craigshoemaker/azure-functions-binding-python/tree/master/ServicecBusOutput)|Read Service Bus message.|Http|N/A|Service Bus|
-|[ServiceBusTriggerDemo](https://github.com/craigshoemaker/azure-functions-binding-python/tree/master/ServiceBusTriggerDemo)|Create a Service Bus message.|Service Bus|Service Bus message|N/A|
+| [HttpTrigger](HttpTrigger) | Triggered by an HTTP request. | Http | N/A | Http |
+| [HttpTriggerRoutes](HttpTriggerRoutes) | Triggered by an HTTP request, configured with a custom route. | Http | N/A | Http |
+| [HttpTriggerSendGrid](HttpTriggerSendGridDemo)  | Send an email message via [SendGrid](https://sendgrid.com/). | Http | N/A | SendGrid message |
+|[EventGridTrigger](EventGridTriggerDemo)|Triggered by an Event Grid event|Event Grid event|Event Grid message|N/A|
+|[QueueTrigger](QueueTrigger)|Triggered by a Queue message|Queue message|Queue message|N/A|
+|[TableStorageInput](TableStorageInput)|Accepts table row ID as a route parameter and makes table row available to function|Http|Storage Table Row|Http|
+|[TableStorageOutput](TableStorageOutput)|Create table storage row|Http|N/A|Storage Table Row|
+|[ServiceBusOutput](ServicecBusOutput)|Read Service Bus message.|Http|N/A|Service Bus|
+|[ServiceBusTriggerDemo](ServiceBusTriggerDemo)|Create a Service Bus message.|Service Bus|Service Bus message|N/A|
