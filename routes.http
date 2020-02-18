@@ -1,0 +1,17 @@
+
+GET http://localhost:7071/api/people/bill HTTP/1.1
+
+# SendGrid
+GET http://localhost:7071/api/HttpTriggerSendGridDemo HTTP/1.1
+
+# Table storage input (exists)
+GET http://localhost:7071/api/messages/4bcc0230-dbb7-11e9-8cec-1bb7d82579f1 HTTP/1.1
+
+# Table storage output
+GET http://localhost:7071/api/TableStorageOutput HTTP/1.1
+
+# Service Bus output
+GET http://localhost:7071/api/ServiceBusOutput?message=This+is+a+test HTTP/1.1
+
+# Twilio Output
+GET http://localhost:7071/api/TwilioOutput?message=This+is+a+test&to=5555555555 HTTP/1.1

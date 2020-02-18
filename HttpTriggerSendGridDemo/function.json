@@ -1,0 +1,24 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "type": "httpTrigger",
+      "authLevel": "function",
+      "direction": "in",
+      "name": "req",
+      "methods": ["get", "post"]
+    },
+    {
+      "type": "sendGrid",
+      "name": "sendGridMessage",
+      "direction": "out",
+      "apiKey": "SendGrid_API_Key",
+      "from": "user@contoso.com"
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "$return"
+    }    
+  ]
+}
