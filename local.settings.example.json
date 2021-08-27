@@ -1,13 +1,13 @@
 {
-  "IsEncrypted": false,
-  "Values": {
-    "FUNCTIONS_WORKER_RUNTIME": "python",
-	"AzureWebJobsStorage": "UseDevelopmentStorage=true",
-	"SendGrid_API_Key": "<SENDGRID_API_KEY>",
-	"AzureServiceBus": "<SERVICE_BUS_CONNECTION>",
-    "DATABASE_SERVER": "<SQL_DATABASE_SERVER>",
-	"DATABASE": "<SQL_DATABASE>",
-	"DATABASE_USER": "<SQL_DATABASE_USER>",
-	"DATABASE_USER_PASSWORD":"<SQL_DATABASE_PASSWORD>"
-  }
+    "IsEncrypted": false,
+    "Values": {
+        "FUNCTIONS_WORKER_RUNTIME": "python",
+        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+        "SendGrid_API_Key": "<SENDGRID_API_KEY>",
+        "AzureServiceBus": "<SERVICE_BUS_CONNECTION>",
+        "DATABASE_SERVER": "<SQL_DATABASE_SERVER>",
+        "DATABASE": "<SQL_DATABASE>",
+        "DATABASE_USER": "<SQL_DATABASE_USER>",
+        "DATABASE_USER_PASSWORD":"<SQL_DATABASE_PASSWORD>"
+    }
 }
